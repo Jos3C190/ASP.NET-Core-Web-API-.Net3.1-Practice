@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
     {
         [HttpGet]
         public IEnumerable<string> Get() {
-            string[] nombres = new[] {"Jose","Fabian","Saul","David"};
+            string[] nombres = new string[] {"Jose","Fabian","Saul","David"};
             return nombres;
         }
     }
