@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Persistencia",
-    "\\WebAPI"
+    "\\Aplicacion",
+    "\\Aplicacion\\Cursos",
+    "\\Persistencia"
   ],
-  "SelectedNode": "\\Persistencia\\CursosOnlineContext.cs",
+  "SelectedNode": "\\Aplicacion\\Cursos\\Consulta.cs",
   "PreviewInSolutionExplorer": false
 }
