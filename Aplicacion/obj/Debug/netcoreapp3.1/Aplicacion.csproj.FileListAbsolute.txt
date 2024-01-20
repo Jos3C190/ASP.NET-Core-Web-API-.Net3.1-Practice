@@ -11,4 +11,4 @@ C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
 C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
-C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.AssemblyReference.cache
+C:\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache

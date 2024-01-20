@@ -12,4 +12,4 @@ C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyCom
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
-C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.AssemblyReference.cache
+C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
