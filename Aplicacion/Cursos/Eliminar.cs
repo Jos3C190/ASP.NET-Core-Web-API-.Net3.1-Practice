@@ -20,20 +20,20 @@ namespace Aplicacion.Cursos
         {
 
             private readonly CursosOnlineContext _context;
-            public Manejador(CursosOnlineContext _context)
+            public Manejador(CursosOnlineContext context)
             {
-                context = context;
+                _context = context;
             }
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                Curso = await _context.Curso.FindAsync(request.Id);
-                if (Curso == null)
+                var curso = await _context.Curso.FindAsync(request.Id);
+                if (curso == null)
                 {
                     throw new Exception("El curso no existe");
                 }
 
-                _context.Curso.Remove(Curso);
+                _context.Curso.Remove(curso);
                 var resultado = await _context.SaveChangesAsync();
 
                 if (resultado > 0) {
