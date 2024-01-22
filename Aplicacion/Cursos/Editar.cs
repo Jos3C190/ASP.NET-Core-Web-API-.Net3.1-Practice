@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Dominio;
@@ -37,7 +38,7 @@ namespace Aplicacion.Cursos
 
                 curso.Titulo = request.Titulo ?? curso.Titulo;
                 curso.Descripcion = request.Descripcion ?? curso.Descripcion;
-                curso.FechaPublicacion = request.FechaPublicacion ?? curso.FechaPublicacion;
+                curso.FechaPublicacion = request.FechaPublicacion != default ? request.FechaPublicacion : curso.FechaPublicacion;
                 var resultado = await _context.SaveChangesAsync();
 
                 if (resultado > 0) {
