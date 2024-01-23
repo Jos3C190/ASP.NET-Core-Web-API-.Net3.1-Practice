@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Dominio;
 using Persistencia;
+using FluentValidation;
 
 namespace Aplicacion.Cursos
 {
@@ -16,9 +17,16 @@ namespace Aplicacion.Cursos
             public int CursoId { get; set; }
             public string Titulo { get; set; }
             public string Descripcion { get; set; }
-            public DateTime FechaPublicacion { get; set; }
+            public DateTime? FechaPublicacion { get; set; }
         }
 
+        public class EjecutaValidacion : AbstractValidator<Ejecuta> {
+            public EjecutaValidacion() {
+                RuleFor(x => x.Titulo).NotEmpty();
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.FechaPublicacion).NotEmpty();
+            }
+        }
         public class Manejador : IRequestHandler<Ejecuta>
         {
 
