@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Persistencia;
 using MediatR;
 using Aplicacion.Cursos;
+using FluentValidation.AspNetCore;
 
 namespace WebAPI
 {
@@ -34,7 +35,7 @@ namespace WebAPI
             });
             
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
-
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
             services.AddControllers();
         }
 
