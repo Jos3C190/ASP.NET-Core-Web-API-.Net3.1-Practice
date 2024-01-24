@@ -7,6 +7,8 @@ using MediatR;
 using Dominio;
 using Persistencia;
 using FluentValidation;
+using System.Net;
+using Aplicacion.ManejadorError;
 
 namespace Aplicacion.Cursos
 {
@@ -41,7 +43,7 @@ namespace Aplicacion.Cursos
                 var curso = await _context.Curso.FindAsync(request.CursoId);
 
                 if (curso == null) {
-                    throw new Exception("El curso no existe"); 
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "No se encontro el curso" });
                 }
 
                 curso.Titulo = request.Titulo ?? curso.Titulo;
@@ -53,7 +55,7 @@ namespace Aplicacion.Cursos
                     return Unit.Value;
                 }
 
-                throw new Exception("No se guardaron los cambios en el curso");
+                throw new ManejadorExcepcion(HttpStatusCode.InternalServerError, new { mensaje = "Ocurrio un error al actualizar el curso" });
 
             }
         }

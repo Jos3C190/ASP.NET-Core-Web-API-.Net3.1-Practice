@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using MediatR;
 using Dominio;
 using Persistencia;
+using System.Net;
+using Aplicacion.ManejadorError;
 
 namespace Aplicacion.Cursos
 {
@@ -26,6 +28,10 @@ namespace Aplicacion.Cursos
             public async Task<Curso> Handle(CursoUnico request, CancellationToken cancellationToken)
             {
                 var curso = await _context.Curso.FindAsync(request.Id);
+
+                if (curso == null) {
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "No se encontro el curso" });
+                }
                 return curso;
             }
         }

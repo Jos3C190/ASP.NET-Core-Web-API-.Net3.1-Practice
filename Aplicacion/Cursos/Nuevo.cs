@@ -7,6 +7,8 @@ using MediatR;
 using Dominio;
 using Persistencia;
 using FluentValidation;
+using System.Net;
+using Aplicacion.ManejadorError;
 
 namespace Aplicacion.Cursos
 {
@@ -53,7 +55,7 @@ namespace Aplicacion.Cursos
                     return Unit.Value;
                 }
 
-                throw new Exception("No se pudo insertar el curso");
+                throw new ManejadorExcepcion(System.Net.HttpStatusCode.InternalServerError, new { mensaje = "Ocurrio un error al insertar el curso" });
             }
         }
     }

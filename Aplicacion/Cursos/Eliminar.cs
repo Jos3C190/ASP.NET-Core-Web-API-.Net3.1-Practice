@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Dominio;
 using Persistencia;
 using MediatR;
+using System.Net;
+using Aplicacion.ManejadorError;
 
 namespace Aplicacion.Cursos
 {
@@ -30,7 +32,7 @@ namespace Aplicacion.Cursos
                 var curso = await _context.Curso.FindAsync(request.Id);
                 if (curso == null)
                 {
-                    throw new Exception("El curso no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new { mensaje = "No se encontro el curso" });
                 }
 
                 _context.Curso.Remove(curso);
@@ -40,7 +42,7 @@ namespace Aplicacion.Cursos
                     return Unit.Value;
                 }
 
-                throw new Exception("No se pudieron guardar los cambios");
+                throw new ManejadorExcepcion(HttpStatusCode.InternalServerError, new { mensaje = "Ocurrio un error al eliminar el curso" });
             }
 
         }
