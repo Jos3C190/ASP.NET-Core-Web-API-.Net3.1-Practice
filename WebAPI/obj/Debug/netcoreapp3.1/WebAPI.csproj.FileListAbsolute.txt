@@ -17,6 +17,9 @@ C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -32,6 +35,8 @@ C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuratio
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
