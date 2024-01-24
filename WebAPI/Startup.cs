@@ -16,6 +16,8 @@ using MediatR;
 using Aplicacion.Cursos;
 using FluentValidation.AspNetCore;
 using WebAPI.Middleware;
+using Dominio;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebAPI
 {
@@ -37,6 +39,12 @@ namespace WebAPI
             
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
+
+            var builder = services.AddIdentityCore<Usuario>();
+            var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
+            identityBuilder.AddEntityFrameworkStores<CursosOnlineContext>();
+            identityBuilder.AddSignInManager<SignInManager<Usuario>>();
+
             services.AddControllers();
         }
 
