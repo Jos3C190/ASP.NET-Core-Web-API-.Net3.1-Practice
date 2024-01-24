@@ -18,6 +18,8 @@ using FluentValidation.AspNetCore;
 using WebAPI.Middleware;
 using Dominio;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Authentication;
 
 namespace WebAPI
 {
@@ -44,6 +46,8 @@ namespace WebAPI
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
             identityBuilder.AddEntityFrameworkStores<CursosOnlineContext>();
             identityBuilder.AddSignInManager<SignInManager<Usuario>>();
+
+            services.TryAddSingleton<ISystemClock, SystemClock>();
 
             services.AddControllers();
         }

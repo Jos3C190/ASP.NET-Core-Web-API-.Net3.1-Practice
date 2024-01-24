@@ -6,6 +6,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Persistencia;
+using Dominio;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebAPI
 {
@@ -19,8 +21,10 @@ namespace WebAPI
                 var services = ambiente.ServiceProvider;
                 try
                 {
+                    var userManager = services.GetRequiredService<UserManager<Usuario>>();
                     var context = services.GetRequiredService<CursosOnlineContext>();
                     context.Database.Migrate();
+                    DataPrueba.InsertarData(context, userManager).Wait();
                 }
                 catch(Exception ex)
                 {
