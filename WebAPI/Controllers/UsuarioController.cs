@@ -12,7 +12,7 @@ namespace WebAPI.Controllers
 
         // http://localhost:5000/api/Usuario/login
         [HttpPost("login")]
-        public async Task<ActionResult<Usuario>> Login([FromBody]Login.Ejecuta data)
+        public async Task<ActionResult<UsuarioData>> Login([FromBody]Login.Ejecuta data)
         {
             return await Mediator.Send(data);
         }
