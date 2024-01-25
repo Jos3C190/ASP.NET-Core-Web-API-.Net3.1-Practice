@@ -6,6 +6,9 @@ using MediatR;
 using Dominio;
 using Aplicacion.ManejadorError;
 using System.Net;
+using Microsoft.AspNetCore.Identity;
+using System.Threading;
+using FluentValidation;
 
 namespace Aplicacion.Seguridad
 {
@@ -25,7 +28,7 @@ namespace Aplicacion.Seguridad
                 RuleFor(x => x.Password).NotEmpty();
             }
         }
-        
+
         public class Manejador : IRequestHandler<Ejecuta, Usuario>
         {
             private readonly UserManager<Usuario> _userManager;
@@ -35,13 +38,13 @@ namespace Aplicacion.Seguridad
                 _userManager = userManager;
                 _signInManager = signInManager;
             }
-            public Task<Usuario> Handle(Ejecuta request, CancellationToken cancellationToken)
+            public async Task<Usuario> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var usuario = await _userManager.FindByEmailAsync(request.Email);
 
                 if (usuario == null)
                 {
-                    throw new ManejadorExcepcion(HttpStatusCode.Unauthorized, new { mensaje = "El usuario no existe" });
+                    throw new ManejadorExcepcion(HttpStatusCode.Unauthorized);
                 }
 
                 var resultado = await _signInManager.CheckPasswordSignInAsync(usuario, request.Password, false);
@@ -51,7 +54,7 @@ namespace Aplicacion.Seguridad
                     return usuario;
                 }
 
-                throw new ManejadorExcepcion(HttpStatusCode.Unauthorized, new { mensaje = "El usuario o la contraseña son incorrectos" });
+                throw new ManejadorExcepcion(HttpStatusCode.Unauthorized);
             }
         }
     }
