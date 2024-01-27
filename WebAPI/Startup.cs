@@ -22,6 +22,8 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.AspNetCore.Authentication;
 using Aplicacion.Contratos;
 using Seguridad;
+using Microsoft.IdentityModel.Tokens;
+using Seguridad.TokenSeguridad;
 
 namespace WebAPI
 {

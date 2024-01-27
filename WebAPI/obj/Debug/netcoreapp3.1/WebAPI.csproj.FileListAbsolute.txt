@@ -84,3 +84,5 @@ C:\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebA
 C:\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.dll
+C:\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.pdb

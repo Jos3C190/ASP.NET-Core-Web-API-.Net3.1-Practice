@@ -9,6 +9,7 @@ using System.Net;
 using Microsoft.AspNetCore.Identity;
 using System.Threading;
 using FluentValidation;
+using Aplicacion.Contratos;
 
 namespace Aplicacion.Seguridad
 {
@@ -33,10 +34,12 @@ namespace Aplicacion.Seguridad
         {
             private readonly UserManager<Usuario> _userManager;
             private readonly SignInManager<Usuario> _signInManager;
-            public Manejador(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager)
+            private readonly IJwtGenerador _jwtGenerador;
+            public Manejador(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager, IJwtGenerador jwtGenerador)
             {
                 _userManager = userManager;
                 _signInManager = signInManager;
+                _jwtGenerador = jwtGenerador;
             }
             public async Task<UsuarioData> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
@@ -53,7 +56,7 @@ namespace Aplicacion.Seguridad
                 {
                     return new UsuarioData{
                         NombreCompleto = usuario.NombreCompleto,
-                        Token = "Token de prueba",
+                        Token = _jwtGenerador.CrearToken(usuario),
                         UserName = usuario.UserName,
                         Email = usuario.Email,
                         Imagen = null
