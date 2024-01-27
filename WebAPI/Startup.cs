@@ -20,6 +20,8 @@ using Dominio;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.AspNetCore.Authentication;
+using Aplicacion.Contratos;
+using Seguridad;
 
 namespace WebAPI
 {
@@ -48,6 +50,8 @@ namespace WebAPI
             identityBuilder.AddSignInManager<SignInManager<Usuario>>();
 
             services.TryAddSingleton<ISystemClock, SystemClock>();
+
+            services.AddScoped<IJwtGenerador, JwtGenerador>();
 
             services.AddControllers();
         }
