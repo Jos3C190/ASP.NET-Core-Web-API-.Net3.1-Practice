@@ -24,6 +24,9 @@ using Aplicacion.Contratos;
 using Seguridad;
 using Microsoft.IdentityModel.Tokens;
 using Seguridad.TokenSeguridad;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace WebAPI
 {
@@ -50,8 +53,17 @@ namespace WebAPI
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
             identityBuilder.AddEntityFrameworkStores<CursosOnlineContext>();
             identityBuilder.AddSignInManager<SignInManager<Usuario>>();
-
             services.TryAddSingleton<ISystemClock, SystemClock>();
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Mi palabra secreta"));
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt => {
+                opt.TokenValidationParameters = new TokenValidationParameters {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = key,
+                    ValidateAudience = false,
+                    ValidateIssuer = false
+                };
+            });
 
             services.AddScoped<IJwtGenerador, JwtGenerador>();
 
@@ -70,6 +82,7 @@ namespace WebAPI
 
             //app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseRouting();
 
             app.UseAuthorization();
