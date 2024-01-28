@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using MediatR;
 using Dominio;
 using Aplicacion.Cursos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebAPI.Controllers
 {
@@ -15,6 +16,7 @@ namespace WebAPI.Controllers
     {
         // http://localhost:5000/api/Cursos
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<List<Curso>>> Get() {
             return await Mediator.Send(new Consulta.ListaCursos());
         }
