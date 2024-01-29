@@ -25,8 +25,9 @@ using Seguridad;
 using Microsoft.IdentityModel.Tokens;
 using Seguridad.TokenSeguridad;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace WebAPI
 {
@@ -47,7 +48,12 @@ namespace WebAPI
             });
             
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
-            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
+
+            services.AddControllers(opt => {
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                opt.Filters.Add(new AuthorizeFilter(policy));
+            })
+            .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 
             var builder = services.AddIdentityCore<Usuario>();
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);

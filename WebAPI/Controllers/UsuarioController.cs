@@ -4,9 +4,11 @@ using System.Threading.Tasks;
 using Aplicacion.Seguridad;
 using Dominio;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebAPI.Controllers
 {
+    [AllowAnonymous]
     public class UsuarioController : MiControllerBase
     {
 
