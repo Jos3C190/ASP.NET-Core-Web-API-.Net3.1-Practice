@@ -71,6 +71,7 @@ namespace WebAPI
                 };
             });
 
+            services.AddScoped<IUsuarioSesion, UsuarioSesion>();
             services.AddScoped<IJwtGenerador, JwtGenerador>();
 
             services.AddControllers();
