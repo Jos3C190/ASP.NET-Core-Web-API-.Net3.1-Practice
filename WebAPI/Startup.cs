@@ -28,6 +28,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using AutoMapper;
 
 namespace WebAPI
 {
@@ -73,6 +74,7 @@ namespace WebAPI
 
             services.AddScoped<IUsuarioSesion, UsuarioSesion>();
             services.AddScoped<IJwtGenerador, JwtGenerador>();
+            services.AddAutoMapper(typeof(Consulta.Manejador));
 
             services.AddControllers();
         }

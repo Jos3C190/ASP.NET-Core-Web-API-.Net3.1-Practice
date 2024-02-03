@@ -7,3 +7,21 @@ C:\ProyectoCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
 C:\ProyectoCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

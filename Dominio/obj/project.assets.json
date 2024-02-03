@@ -798,23 +798,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\josec\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+      "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

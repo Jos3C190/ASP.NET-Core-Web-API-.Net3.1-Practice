@@ -13,3 +13,33 @@ C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyCom
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
 C:\ProyectoCore\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache

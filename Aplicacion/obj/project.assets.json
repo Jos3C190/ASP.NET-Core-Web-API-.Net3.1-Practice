@@ -6760,23 +6760,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\josec\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoCore\\Aplicacion\\obj\\",
+      "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6790,11 +6790,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+            "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj"
             },
-            "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+            "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj"
             }
           }
         }

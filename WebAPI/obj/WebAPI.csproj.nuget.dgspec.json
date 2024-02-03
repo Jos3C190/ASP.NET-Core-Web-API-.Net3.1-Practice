@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj"
               },
-              "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -88,20 +88,20 @@
         }
       }
     },
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+        "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,20 +153,20 @@
         }
       }
     },
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
+        "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,8 +180,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -234,20 +234,20 @@
         }
       }
     },
-    "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Seguridad\\obj\\",
+        "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,8 +261,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -303,20 +303,20 @@
         }
       }
     },
-    "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+    "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\WebAPI\\obj\\",
+        "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -330,11 +330,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj"
+              "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Proyectos github\\ASP.NET-Core-Web-API-.Net3.1-Practice\\Seguridad\\Seguridad.csproj"
               }
             }
           }
