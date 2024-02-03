@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
 
         // http://localhost:5000/api/Cursos/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Curso>> Detalle(int id) {
+        public async Task<ActionResult<CursoDto>> Detalle(Guid id) {
             return await Mediator.Send(new ConsultaId.CursoUnico { Id = id });
         }
 
