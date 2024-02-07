@@ -20,6 +20,8 @@ namespace Aplicacion.Cursos
             public string Descripcion { get; set; }
             public DateTime? FechaPublicacion { get; set; }
             public List<Guid> ListaInstructor { get; set; }
+            public decimal Precio { get; set; }
+            public decimal Promocion { get; set; }
         }
 
         public class EjecutaValidacion : AbstractValidator<Ejecuta>
@@ -42,7 +44,7 @@ namespace Aplicacion.Cursos
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                Guid _cursoId = Guid.NewGuid();
+                var _cursoId = Guid.NewGuid();
                 var curso = new Curso
                 {
                     CursoId = _cursoId,
@@ -64,6 +66,16 @@ namespace Aplicacion.Cursos
                         _context.CursoInstructor.Add(cursoInstructor);
                     }
                 }
+
+                var precioEntidad = new Precio
+                {
+                    PrecioId = Guid.NewGuid(),
+                    PrecioActual = request.Precio,
+                    Promocion = request.Promocion,
+                    CursoId = _cursoId
+                };
+
+                _context.Precio.Add(precioEntidad);
 
                 var valor = await _context.SaveChangesAsync();
 
