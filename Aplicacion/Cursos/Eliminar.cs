@@ -35,6 +35,18 @@ namespace Aplicacion.Cursos
                     _context.CursoInstructor.Remove(instructor);
                 }
                 
+                var comentariosDB = _context.Comentario.Where(x => x.CursoId == request.Id);
+                foreach (var comentario in comentariosDB)
+                {
+                    _context.Comentario.Remove(comentario);
+                }
+
+                var precioDB = _context.Precio.Where(x => x.CursoId == request.Id).FirstOrDefault();
+                if (precioDB != null)
+                {
+                    _context.Precio.Remove(precioDB);
+                }
+
                 var curso = await _context.Curso.FindAsync(request.Id);
                 if (curso == null)
                 {
