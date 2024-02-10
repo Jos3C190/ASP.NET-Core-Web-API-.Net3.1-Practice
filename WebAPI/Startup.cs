@@ -48,6 +48,8 @@ namespace WebAPI
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
             
+            services.Configure<ConexionConfiguracion>(Configuration.GetSection("DefaultConnection")); 
+
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
 
             services.AddControllers(opt => {
