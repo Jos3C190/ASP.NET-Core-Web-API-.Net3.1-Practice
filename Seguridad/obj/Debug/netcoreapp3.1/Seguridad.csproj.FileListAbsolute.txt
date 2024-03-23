@@ -30,8 +30,9 @@ C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.deps.json
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.dll
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.pdb
@@ -42,7 +43,6 @@ C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\ne
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.pdb
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csprojAssemblyReference.cache
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb

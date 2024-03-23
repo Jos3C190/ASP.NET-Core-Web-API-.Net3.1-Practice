@@ -26,12 +26,9 @@ C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
 C:\Users\josec\OneDrive\Documentos\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
-C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
@@ -39,4 +36,7 @@ C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\n
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
 C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Proyectos github\ASP.NET-Core-Web-API-.Net3.1-Practice\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

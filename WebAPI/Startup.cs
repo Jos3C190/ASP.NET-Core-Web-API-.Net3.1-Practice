@@ -29,6 +29,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using AutoMapper;
+using Persistencia.DapperConexion;
 
 namespace WebAPI
 {

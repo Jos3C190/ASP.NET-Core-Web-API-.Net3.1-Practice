@@ -39,7 +39,7 @@ namespace Persistencia.DapperConexion.Instructor
             try
             {
                 var connection = _factoryConnection.GetConnection();
-                InstructorList = await connection.QueryAsync<InstructorModel>(storeProcedure, null, commandType: CommandType.StoredProcedure).ToList();
+                InstructorList = (await connection.QueryAsync<InstructorModel>(storeProcedure, null, commandType: CommandType.StoredProcedure)).ToList();
             }
             catch (Exception e)
             {

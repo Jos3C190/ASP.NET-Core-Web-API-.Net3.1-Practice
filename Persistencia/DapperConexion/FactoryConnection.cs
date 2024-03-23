@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using System.Data;
+using Dapper;
+using System.Data.SqlClient; 
 
 namespace Persistencia.DapperConexion
 {
@@ -10,9 +12,10 @@ namespace Persistencia.DapperConexion
     {
         private IDbConnection _connection;
         private readonly IOptions<ConexionConfiguracion> _configs;
-        public FactoryConnection(IDbConnection connection)
+        public FactoryConnection(IDbConnection connection, IOptions<ConexionConfiguracion> configs)
         {
             _connection = connection;
+            _configs = configs;
         }
 
         public void CloseConnection()
