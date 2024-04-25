@@ -2,12 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Aplicacion",
+    "\\Aplicacion\\Instructor",
     "\\Dominio",
     "\\Persistencia",
     "\\Seguridad",
     "\\WebAPI",
     "\\WebAPI\\Controllers"
   ],
-  "SelectedNode": "\\WebAPI\\Controllers\\CursosController.cs",
+  "SelectedNode": "\\WebAPI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -15,7 +15,7 @@ namespace Persistencia.DapperConexion.Instructor
         {
             _factoryConnection = factoryConnection;
         }
-     
+
         public Task<int> Actualizar(InstructorModel parametros)
         {
             throw new NotImplementedException();
@@ -52,9 +52,33 @@ namespace Persistencia.DapperConexion.Instructor
             return InstructorList;
         }
 
-        public Task<int> Nuevo(InstructorModel parametros)
+        public async Task<int> Nuevo(InstructorModel parametros)
         {
-            throw new NotImplementedException();
+            var storeProcedure = "usp_Insertar_Instructor";
+            try
+            {
+                var resultado = await connection = _factoryConnection.GetConnection();
+                connection.ExecuteAsync(
+                    storeProcedure, new
+                    {
+                        InstructorId = Guid.NewGuid(),
+                        Nombre = parametros.Nombre,
+                        Apellidos = parametros.Apellidos,
+                        Titulo = parametros.Titulo,
+                    },
+                    commandType: CommandType.StoredProcedure
+                    );
+
+                _factoryConnection.CloseConnection();
+
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No se pudo insertar el nuevo instructor", ex);
+
+                return Task.FromResult(0);
+            }
         }
     }
 }
