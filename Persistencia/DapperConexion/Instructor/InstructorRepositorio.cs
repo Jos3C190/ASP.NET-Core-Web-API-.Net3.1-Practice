@@ -52,7 +52,7 @@ namespace Persistencia.DapperConexion.Instructor
             return InstructorList;
         }
 
-        public async Task<int> Nuevo(InstructorModel parametros)
+        public async Task<int> Nuevo(string nombre, string apellidos, string titulo)
         {
             var storeProcedure = "usp_Insertar_Instructor";
             try
@@ -62,9 +62,9 @@ namespace Persistencia.DapperConexion.Instructor
                     storeProcedure, new
                     {
                         InstructorId = Guid.NewGuid(),
-                        Nombre = parametros.Nombre,
-                        Apellidos = parametros.Apellidos,
-                        Titulo = parametros.Titulo,
+                        Nombre = nombre,
+                        Apellidos = apellidos,
+                        Titulo = titulo,
                     },
                     commandType: CommandType.StoredProcedure
                     );
